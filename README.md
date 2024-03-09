@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# Redux Price Card Management
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the Redux Price Card Management project! This project aims to create a cart page where users can manage price cards with per-item price, per-item quantity, total quantity, and total amount using Redux for state management.
 
-## Available Scripts
+## Introduction
 
-In the project directory, you can run:
+This project utilizes Redux to efficiently manage state and perform necessary operations on the price card management page. Users can add, update, delete price cards, and see the total quantity and amount dynamically updated based on the per-item quantity and price.
 
-### `npm start`
+### Demo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Explore the demo of this project: https://redux-pricecard.netlify.app
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features
 
-### `npm test`
+- View existing price cards with details such as per-item price, per-item quantity, total quantity, and total amount.
+- Add new price cards with custom per-item price and quantity.
+- Update per-item price and quantity for existing price cards.
+- Delete price cards from the system.
+- Dynamically update total quantity and total amount based on per-item quantity and price changes.
+- Seamlessly manage price card operations using Redux for state management.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Reflections and Lessons Learned
 
-### `npm run build`
+Throughout the development of this project, several key insights and lessons were gained:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Efficient State Management**: Redux simplifies the process of managing complex state logic, allowing for efficient data handling and manipulation.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **Seamless User Experience**: With Redux, user interactions on the price card management page become seamless and intuitive, enhancing overall usability.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Enhanced Code Organization**: Redux promotes structured code organization and modularity, leading to a cleaner and more maintainable codebase.
 
-### `npm run eject`
+## Technology Stack
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+This project is built using the following technologies:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- React
+- Redux
+- HTML5
+- CSS3
+- JavaScript
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Tools Used
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The following tools were utilized during the development of this project:
 
-## Learn More
+- Visual Studio Code
+- Git
+- Netlify
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Screen Shoot
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+![image](https://github.com/Prakash-V-S/Redux---Price-Card/assets/141955456/9e843cc7-034e-4f7e-aba4-e0796559a03e)
 
-### Code Splitting
+## Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+To run this project, ensure you have the following installed:
 
-### Analyzing the Bundle Size
+- Node.js
+- npm
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Then, follow these steps:
 
-### Making a Progressive Web App
+1. Clone the repository.
+2. Navigate to the project directory in your terminal.
+3. Run `npm install` to install the project dependencies.
+4. Run `npm start` to start the development server.
+5. Open [http://localhost:3000](http://localhost:3000) in your browser to view the application.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Additional Resources
 
-### Advanced Configuration
+- [Redux Documentation](https://redux.js.org/)
+- [React Documentation](https://reactjs.org/docs/getting-started.html)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Feedback
 
-### Deployment
+Your feedback is valuable! If you have any suggestions or questions, please feel free to reach out to me at [prakashvs.official@gmail.com](mailto:prakashvs.official@gmail.com).
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Happy coding! 🚀
